@@ -1,8 +1,8 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "env": {
+      "PYTHON_VERSION": "3.11"
+    }
   },
-  "deploy": {
-    "startCommand": "python bot.py"
-  }
+  "start": "python bot.py"
 }
